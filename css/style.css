@@ -17,6 +17,12 @@ body {
     clear: both;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10vh 0;
+}
+
 /* Stile bottoni */
 .button {
     display: inline-block;
@@ -116,12 +122,6 @@ header {
 }
 
 /* Stile contenuto */
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 10vh 0;
-}
-
 .grey-back {
     background-color: #f6f6f6;
 }
@@ -173,4 +173,84 @@ header {
     color: #fff;
 }
 
+/* Stile footer */
 
+footer {
+    background-color: #23272a;
+    color: #fff;
+}
+
+/* Stile colonne */
+.big.column {
+    float: left;
+    width: 25%;
+    margin-right: 10%;
+}
+
+.small.column {
+    float: left;
+    width: 15%;
+}
+
+.big.column h3 {
+    font-size: 2em;
+    color: #7289da;
+    margin-bottom: 4vh;
+}
+
+.big.column img {
+    height: 1em;
+    width: auto;
+    object-fit: contain;
+}
+
+.social{
+    margin-top: 4vh;
+}
+
+.social a {
+    color: #fff;
+    font-size: 2em;
+    margin-right: 10%;
+}
+
+.small.column ul {
+    list-style-type: none;
+}
+
+.small.column ul li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 2em;
+}
+
+.small.column ul > :first-child a {
+    color: #7289da;
+}
+
+footer  .container {
+    padding-bottom: 5vh;
+    border-bottom: 1px solid #7289da;
+}
+
+/* Parte finale footer */
+#end {
+    height: 25vh;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#end .logo {
+    position: absolute;
+    left: 0;
+    top: 20%;
+}
+
+#end .signin {
+    position: absolute;
+    right: 0;
+    top: 20%;   
+    color: #fff;
+    background-color: #7289da;
+}
