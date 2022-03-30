@@ -20,7 +20,8 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
-    padding: 20vh 0;
+    padding: 10vh 0;
+    position: relative;
 }
 
 /* Stile bottoni */
@@ -169,7 +170,7 @@ header {
 }
 
 .last .download {
-    background-color: #8ea1e1;
+    background-color: #7289da;
     color: #fff;
 }
 
@@ -224,7 +225,7 @@ footer {
     line-height: 2em;
 }
 
-.small.column ul > :first-child {
+.small.column ul > :first-child{
     color: #7289da;
 }
 
@@ -253,4 +254,49 @@ footer  .container {
     top: 20%;   
     color: #fff;
     background-color: #7289da;
+}
+
+/* Stile bonus */
+
+/* Stile onde */
+.wave {
+    background-image: url(../img/wave.svg);
+    height: 10vh;
+}
+
+.wave.grey {
+    opacity: 0.04;
+}
+
+.wave.white {
+    filter: invert(100%);
+}
+
+/* Stile hover */
+
+#nav-bar ul li a:hover {
+    text-decoration: underline;
+}
+
+#nav-bar .login:hover, #hero .download:hover {
+    box-shadow: 0 1px 20px #00f;
+    color: #00f;
+}
+
+#hero .open:hover {
+    box-shadow: 0 1px 20px #23272a;
+    opacity: 0.9;
+}
+
+.last .download:hover {
+    box-shadow: 0 1px 20px #8ea1e1;
+    background-color: #8ea1e1;
+}
+
+#end .signin:hover {
+    background-color: #8ea1e1;
+}
+
+.small ul li a:hover {
+    text-decoration: underline;
 }
