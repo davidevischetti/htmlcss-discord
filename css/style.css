@@ -19,12 +19,14 @@ body {
 
 /* Stile bottoni */
 .button {
+    display: inline-block;
     text-decoration: none;
     height: 3em;
     line-height: 3em;
     vertical-align: middle;
     padding: 0 2%;
     border-radius: 30px;
+    margin: 0 1vw;
 }
 
 
@@ -103,11 +105,6 @@ header {
     line-height: 1.5em;
 }
 
-#hero-text a {
-    display: inline-block;
-    margin: 0 1vw;
-}
-
 #hero-text .download {
     background-color: #fff;
     color: #000;
@@ -144,14 +141,36 @@ header {
     margin-top: 3%;
 }
 
-.side-text h2 {
+.container h2 {
     font-size: 3em;
 }
 
-.side-text p {
+.container p {
     margin-top: 3em;
     line-height: 1.5em;
 }
 
+.last {
+    text-align: center;
+}
+
+.last img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.last h3 {
+    line-height: 4em;
+    font-size: 1.8em;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.last .download {
+    background-color: #8ea1e1;
+    color: #fff;
+}
 
 
