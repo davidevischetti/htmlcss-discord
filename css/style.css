@@ -11,6 +11,13 @@ body {
     font-weight: 600;
 }
 
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Stile bottoni */
 .button {
     text-decoration: none;
     height: 3em;
@@ -20,11 +27,6 @@ body {
     border-radius: 30px;
 }
 
-.clearfix {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 /* Stile header */
 header {
@@ -119,7 +121,12 @@ header {
 /* Stile contenuto */
 .container {
     width: 80%;
-    margin: 10% auto;
+    margin: 0 auto;
+    padding: 10vh 0;
+}
+
+.grey-back {
+    background-color: #f6f6f6;
 }
 
 .margin {
@@ -143,7 +150,7 @@ header {
 
 .side-text p {
     margin-top: 3em;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 
