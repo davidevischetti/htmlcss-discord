@@ -1,3 +1,4 @@
+/* Stile pagina */
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +6,121 @@
 }
 
 body {
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 2vh;
+    font-weight: 600;
 }
+
+.center-align {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.button {
+    text-decoration: none;
+    height: 3em;
+    line-height: 3em;
+    vertical-align: middle;
+    padding: 0 2%;
+    border-radius: 30px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Stile header */
+header {
+    background-color: #255ee9;
+}
+
+/* Stile barra di navigazione */
+#nav-bar {
+    height: 15vh;
+    text-align: center;
+    position: relative;
+}
+
+#nav-bar .logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#nav-bar .login {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);     
+    color: #000;
+    background-color: #fff;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    display: inline-block;  
+    height: 15vh;
+    line-height: 15vh;
+    vertical-align: middle;  
+}
+
+#nav-bar ul li {
+    display: inline-block;
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    margin-right: 2vw;
+    color: #fff;
+}
+
+/* Stile hero */
+#hero {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 65vh;
+    width: auto;
+
+}
+
+#hero-text {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 7%;
+    position: relative;
+}
+
+#hero-text h1 {
+    font-size: 3em;
+    color: #fff;
+}
+
+#hero-text p {
+    color: #fff;
+    margin: 2em 0;
+    line-height: 1.5em;
+}
+
+#hero-text a {
+    display: inline-block;
+    margin: 0 1vw;
+}
+
+#hero-text .download {
+    background-color: #fff;
+    color: #000;
+}
+
+#hero-text .open {
+    background-color: #23272a;
+    color: #fff;
+}
+
+
+
+
+
